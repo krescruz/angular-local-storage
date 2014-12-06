@@ -1,3 +1,12 @@
+/*
+ * angular-local-storage
+ * https://github.com/kresCruz/angular-local-storage/
+ *
+ * Copyright (c) 2014 @krescruz
+ * The MIT License (MIT).
+ *
+ */
+
 angular.module('local-storage',[])
 .factory('localStorageService', ['$window', function ($window) {
 
