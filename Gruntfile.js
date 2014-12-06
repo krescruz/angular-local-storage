@@ -14,7 +14,7 @@ module.exports = function(grunt) {
     uglify: {
       dist: {
         files: {
-          'dist/angular-local-storage.min.min.js': ['src/angular-local-storage.min.js']
+          'dist/angular-local-storage.min.js': ['src/angular-local-storage.js']
         }
       }
     }
